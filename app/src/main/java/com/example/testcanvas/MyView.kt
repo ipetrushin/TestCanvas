@@ -24,6 +24,8 @@ class MyView(context: Context?) : View(context) {
     var w = 1000
     var h = 1000
 
+    // TODO: добавить функцию проверки на выигрыш
+    // она должна анализировать массив tiles или tilesRect
     override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
         super.onLayout(changed, left, top, right, bottom)
         layoutWidth = right - left; layoutHeight = bottom - top
